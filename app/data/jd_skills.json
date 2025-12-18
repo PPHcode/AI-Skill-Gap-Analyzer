@@ -1,0 +1,76 @@
+{
+  "role": "AI Engineer",
+
+  "programming_languages": [
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "Java",
+    "Go",
+    "C++"
+  ],
+
+  "ml_ai_skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "LLMs",
+    "RAG",
+    "Fine-tuning",
+    "Prompt Engineering"
+  ],
+
+  "frameworks": [
+    "FastAPI",
+    "Django",
+    "Node.js",
+    "Express",
+    "NestJS",
+    "React"
+  ],
+
+  "databases": [
+    "SQL",
+    "NoSQL",
+    "PostgreSQL",
+    "MySQL",
+    "MongoDB",
+    "Vector Databases",
+    "FAISS",
+    "pgvector",
+    "Pinecone"
+  ],
+
+  "cloud_devops": [
+    "AWS",
+    "GCP",
+    "Azure",
+    "Docker",
+    "Kubernetes",
+    "CI/CD"
+  ],
+
+  "mlops_observability": [
+    "MLOps",
+    "Logging",
+    "Monitoring",
+    "Tracing",
+    "Security",
+    "Privacy",
+    "PII Handling"
+  ],
+
+  "tools_bonus": [
+    "LangChain",
+    "LlamaIndex",
+    "Hugging Face",
+    "Ray",
+    "ONNX",
+    "TensorRT",
+    "Kafka"
+  ],
+
+  "education": [
+    "BSc Computer Science",
+    "BSc Engineering"
+  ]
+}

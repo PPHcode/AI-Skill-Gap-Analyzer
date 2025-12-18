@@ -1,17 +1,24 @@
 CV_EXTRACTION_PROMPT = """
-Extract the following from the CV text:
-- experience_field
-- years_experience
-- programming_languages
-- skills_databases
-- skills_cloud
-- education_level
-- certifications
-- projects
-- internships
+You are a resume parser.
 
-Return JSON only.
+Extract the following fields from the CV text.
 
-CV:
+Return ONLY valid JSON.
+DO NOT include explanations, markdown, or extra text.
+
+Schema:
+{{
+  "experience_field": "",
+  "years_experience": 0,
+  "programming_languages": [],
+  "skills_databases": [],
+  "skills_cloud": [],
+  "education_level": "",
+  "certifications": [],
+  "projects": [],
+  "internships": []
+}}
+
+CV TEXT:
 {cv_text}
 """
